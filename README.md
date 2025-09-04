@@ -1,6 +1,6 @@
 # SQLite Library for Universal Windows Platform (UWP)
 
-[![NuGet Package](https://img.shields.io/nuget/v/SQLite.Universal.svg)](https://www.nuget.org/packages/SQLite.Universal/)
+[![NuGet Package](https://img.shields.io/nuget/v/SQLite.Universal.svg)](https://www.nuget.org/packages/SQLite3.Universal/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive SQLite library for Universal Windows Platform (UWP) applications, providing native SQLite support for **x86**, **x64**, **ARM**, and **ARM64** architectures.
@@ -24,7 +24,7 @@ If you're currently using the Visual Studio SQLite extension:
 
 1. **Uninstall the extension** (optional, but recommended to avoid conflicts)
 2. **Remove SQLite references** from your project
-3. **Install this NuGet package**: `Install-Package SQLite.Universal`
+3. **Install this NuGet package**: `Install-Package SQLite3.Universal`
 4. **Rebuild your project** - that's it!
 
 No code changes required - your existing SQLite code will work unchanged.

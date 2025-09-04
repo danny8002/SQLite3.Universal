@@ -158,8 +158,8 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.8</Version>
     </PackageReference>
-    <PackageReference Include="SQLite.Universal">
-      <Version>3.27.2</Version>
+    <PackageReference Include="SQLite3.Universal">
+      <Version>3.50.4</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
