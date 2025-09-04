@@ -4,3 +4,4 @@ Build/
 Samples/TestApplicationStorage/bin/
 Samples/TestApplicationStorage/obj/
 *.user
+*.nupkg

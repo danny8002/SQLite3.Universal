@@ -104,13 +104,13 @@ var connection = new SQLiteConnectionWithLock(
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ionutdanila/SQLite.UWP.git
-   cd SQLite.UWP
+   git clone https://github.com/danny8002/SQLite3.Universal.git
+   cd SQLite3.Universal
    ```
 
 2. **Open the solution**:
    ```bash
-   start SQLite.Universal.sln
+   start SQLite3.Universal.sln
    ```
 
 3. **Build for all platforms**:
@@ -168,6 +168,15 @@ Replace the following files in [`SQLite.Universal/SourceCode/`](SQLite.Universal
    - Test on different UWP target versions
    - Verify on all supported architectures
 
+4. **Generate nuget package**:
+   ```
+   >msbuild SQLite3.Universal.sln /p:Configuration=Release /p:Platform=ARM
+   >msbuild SQLite3.Universal.sln /p:Configuration=Release /p:Platform=ARM64
+   >msbuild SQLite3.Universal.sln /p:Configuration=Release /p:Platform=x64
+   >msbuild SQLite3.Universal.sln /p:Configuration=Release /p:Platform=x86
+   >cd Nuget & nuget pack
+   ```
+
 ### Step 5: Version Verification
 
 Add version checking to your application:
@@ -198,7 +207,7 @@ Console.WriteLine($"SQLite Version: {versionString} ({version})");
 ## 📁 Project Structure
 
 ```
-SQLite.UWP/
+SQLite3.Universal/
 ├── SQLite.Universal/          # Main library project
 │   ├── SourceCode/           # SQLite source files
 │   │   ├── sqlite3.c         # SQLite implementation
@@ -226,7 +235,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/ionutdanila/SQLite.UWP/issues)
+- **Issues**: [GitHub Issues](https://github.com/danny8002/SQLite3.Universal/issues)
 - **Documentation**: [SQLite.org Documentation](https://www.sqlite.org/docs.html)
 - **NuGet**: [Package Page](https://www.nuget.org/packages/SQLite.Universal/)
 

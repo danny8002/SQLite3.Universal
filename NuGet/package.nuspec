@@ -4,7 +4,7 @@
     <id>SQLite.Universal</id>
     <version>3.50.4</version>
     <title>SQLite Library for UWP</title>
-    <projectUrl>https://github.com/ionutdanila/SQLite.UWP</projectUrl>
+    <projectUrl>https://github.com/danny8002/SQLite3.Universal</projectUrl>
     <authors>Ionut Danila</authors>
 	<language>en-US</language>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
